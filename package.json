@@ -1,6 +1,6 @@
 {
   "name": "ts-essentials",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "description": "All essential TypeScript types in one place",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@arktype/attest": "0.7.5",
-    "@changesets/cli": "^2.11.2",
+    "@changesets/cli": "^2.20.0",
     "@codechecks/build-size-watcher": "^0.1.0",
     "@codechecks/client": "^0.1.11",
     "conditional-type-checks": "^1.0.4",
