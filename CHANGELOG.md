@@ -1,5 +1,17 @@
 # ts-essentials
 
+## 10.2.0
+
+### Minor Changes
+
+- a0a0cc2: Add `NonUnion` utility type
+- 88bfc52: Add `JsonValue`, `JsonPrimitive`, `JsonObject` and `JsonArray` utility types
+
+### Patch Changes
+
+- 16e427d: Fix `IsTuple<Type>` type when `Type` is a tuple with both optional elements and a rest element, like
+  `[string?, ...number[]]`
+
 ## 10.1.1
 
 ### Patch Changes
